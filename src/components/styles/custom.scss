@@ -1,0 +1,33 @@
+$background: #e8e8e8; 
+$hero: #4c4c4c;
+$heading:#f2f78b;
+$card-color:#f2f78b;
+$card-text:#407088;
+
+@mixin  centerFlex {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.app {
+  height:100vh;
+  background-color:$background;
+}
+
+.hero__container {
+
+}
+
+.hero__heading {
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+  color:$heading;
+  margin: 0;
+  padding-left:40px;
+  height: 70px;
+  background-color: $hero;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
