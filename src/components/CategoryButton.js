@@ -3,7 +3,7 @@ import './styles/custom.scss'
 
 const CategoryButton = ({onClick, category}) => {
   return(
-    <button className='categoryButton' onClick= {(e)=>onClick(category)}>
+    <button className='CategoryButton' onClick= {(e)=>onClick(category)}>
       {category}
     </button>
   )
